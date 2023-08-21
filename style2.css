@@ -1,0 +1,78 @@
+:root {
+    --heffa-orange: #bc5a27;
+    --heffa-black: #383848;
+    --heffa-black-transparent: #383848c2;
+    --heffa-orange-transparent: #ab3b00a6;
+}
+
+.color-orange {
+    color: var(--heffa-orange);
+    border-color: var(--heffa-orange);
+}
+
+.color-heffalump {
+    color: var(--heffa-black);
+    border-color: var(--heffa-black);
+    z-index: -1;
+
+}
+
+.t-primary {
+    color: var(--heffa-orange) !important;
+}
+
+.bg-orange-color {
+    color: var(--heffa-orange);
+}
+
+.bg-black-color {
+    background-color: var(--heffa-black) !important;
+}
+
+.bg-orange-color {
+    background-color: var(--heffa-orange);
+}
+
+.carousel-caption {
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: var(--heffa-black-transparent) !important;
+    font-size: large;
+}
+
+.container-fluid {
+    /*background-color: var(--heffa-orange-transparent);*/
+    justify-content: center !important;
+}
+
+.otransparent-bg-heffalump {
+    background-color: var(--heffa-orange-transparent);
+}
+
+.btransparent-bg-heffalump {
+    background-color: var(--heffa-black-transparent);
+}
+
+.carousel {
+    width: 50%;
+    max-height: 600px;
+}
+
+.carousel-inner>.item>img {
+    margin: flex;
+}
+.heffa-border{
+    border-left: 2cm ;
+    border-right: 2cm ;
+    border-color: white;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
